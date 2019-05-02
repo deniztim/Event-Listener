@@ -1,0 +1,38 @@
+Manifest-Version: 1.0
+Atlassian-Build-Date: 2019-05-02T15:43:13+0300
+Atlassian-Plugin-Key: com.example.tutorial.plugins.new-listener-plugin
+Bnd-LastModified: 1556800994979
+Build-Jdk: 1.8.0_191
+Built-By: deniz.timartas
+Bundle-Description: This plugin implements a simple issue event listener
+  for JIRA using atlassian-event.
+Bundle-DocURL: https://www.obss.com.tr
+Bundle-ManifestVersion: 2
+Bundle-Name: new-listener-plugin
+Bundle-SymbolicName: com.example.tutorial.plugins.new-listener-plugin
+Bundle-Vendor: OBSS Company
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.example.tutorial.plugins.api;version="1.0.0"
+Import-Package: org.springframework.osgi.context;resolution:=optional,or
+ g.springframework.osgi.service.exporter.support;resolution:=optional,or
+ g.springframework.osgi.service.importer.support;resolution:=optional,or
+ g.eclipse.gemini.blueprint.context;resolution:=optional,org.eclipse.gem
+ ini.blueprint.service.exporter;resolution:=optional,org.eclipse.gemini.
+ blueprint.service.exporter.support;resolution:=optional,org.eclipse.gem
+ ini.blueprint.service.importer.support;resolution:=optional,com.atlassi
+ an.event.api,com.atlassian.jira.event.issue,com.atlassian.jira.event.ty
+ pe,com.atlassian.jira.issue,com.atlassian.plugin.osgi.factory,com.googl
+ e.common.base,com.google.common.collect,javax.annotation,org.apache.com
+ mons.lang,org.apache.commons.logging,org.osgi.framework,org.slf4j,org.s
+ pringframework.aop.support,org.springframework.beans,org.springframewor
+ k.beans.factory,org.springframework.beans.factory.annotation,org.spring
+ framework.beans.factory.config,org.springframework.beans.factory.parsin
+ g,org.springframework.beans.factory.support,org.springframework.beans.f
+ actory.xml,org.springframework.context.annotation,org.springframework.c
+ ore.io,org.springframework.stereotype,org.springframework.util,org.w3c.
+ dom
+Originally-Created-By: Apache Maven Bundle Plugin
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Spring-Context: *
+Tool: Bnd-2.4.1.201501161923
